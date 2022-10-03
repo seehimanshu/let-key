@@ -78,16 +78,22 @@
 // let ans=add(2,5);
 // console.log(ans);
 
-function calculator(str,a,b) {
-    if(str=='add')
-    {
-    return function add()
-        {
-            console.log(a+b);
-        }
-    }
+// function calculator(str,a,b) {
+//     if(str=='add')
+//     {
+//     return function add()
+//         {
+//             console.log(a+b);
+//         }
+//     }
     
+// }
+// let returnfunc=calculator('add',4,6);
+// console.log(returnfunc);
+// returnfunc();
+
+let sayHi=function(){
+    console.log("hi i am himanshu");
 }
-let returnfunc=calculator('add',4,6);
-console.log(returnfunc);
-returnfunc();
+console.log("out put\n"+sayHi);
+sayHi();
