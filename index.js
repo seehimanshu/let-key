@@ -92,8 +92,21 @@
 // console.log(returnfunc);
 // returnfunc();
 
-let sayHi=function(){
-    console.log("hi i am himanshu");
-}
-console.log("out put\n"+sayHi);
-sayHi();
+// let sayHi=function(){
+//     console.log("hi i am himanshu");
+// }
+// console.log("out put\n"+sayHi);
+// sayHi();
+let heLlo=(function add(a,b){
+    return a+b;
+})(20,30);
+console.log(heLlo);
+
+let heLo=(function add(a,b){
+    console.log(a+b);
+})(20,30);
+
+// let heLlo=(function add(a,b){
+//     return a+b;
+// });
+// console.log(heLlo(20,30));
