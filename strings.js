@@ -13,6 +13,12 @@ console.log(str.length);
 //slice method
 //jo index likha hoga waha se shuru hoga or last wale se phle tk
 
-let slicedStr=str.slice(6,15);
+var slicedStr=str.slice(6,15);
 console.log(slicedStr);
 console.log(str);
+
+var slicedStr=str.slice(6,-3);
+console.log(slicedStr);
+
+var slicedStr=str.slice(4);
+console.log(slicedStr);
