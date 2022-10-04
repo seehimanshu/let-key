@@ -43,8 +43,12 @@ console.log(cars.length);
 //2d array
 
 let array2d=[
-    [1,3,2],[4,5,6],[7,8,9]
+    [1,3,2],[4,5,6],[7,8,9]//array of arrays
 ];
 console.log(array2d);
 console.table(array2d);
-console.log(array2d[2][2]);
+console.log(array2d[2][1]);
+console.log(array2d[2]);
+
+// [a,b,c]//array of string
+// [1,2,3]//array of integer
