@@ -48,4 +48,7 @@ for(let abc in captainAmerica){
     // console.log(captainAmerica[abc]);//for value of keys
     console.log(`${abc} : ${captainAmerica[abc]}`);//for in same line
 
+
 }
+delete captainAmerica.lastname;
+console.log(captainAmerica.lastname);
