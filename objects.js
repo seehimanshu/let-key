@@ -42,3 +42,10 @@ captainAmerica.sayHi();//method accessing
 
 // methods ->objects k andar functions 
 console.log(str.toUpperCase());
+
+for(let abc in captainAmerica){
+    // console.log(abc);//for keys
+    // console.log(captainAmerica[abc]);//for value of keys
+    console.log(`${abc} : ${captainAmerica[abc]}`);//for in same line
+
+}
