@@ -52,4 +52,3 @@ for(let abc in captainAmerica){
 }
 delete captainAmerica.lastname;
 console.log(captainAmerica.lastname);
-
