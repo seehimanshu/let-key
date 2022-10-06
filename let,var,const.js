@@ -15,3 +15,7 @@ var a=300;
 }
 console.log(a);
 // console.log(b);
+
+var a=10;
+var a=100;//shadowing
+console.log(a);
