@@ -13,6 +13,7 @@ function greet(){
     
     console.log("hello pepcoder");
 }
+//expression function
 var hello=function(){
     console.log("you guys rock");
 }
