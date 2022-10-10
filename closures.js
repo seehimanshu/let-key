@@ -22,8 +22,9 @@ function outter(){
     function inner(){
         console.log(a);
     }
-    a=11;
+   
     return inner;
+    a=11;
 }
 var c=outter();
 console.log(c);
